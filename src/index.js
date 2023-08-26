@@ -23,7 +23,7 @@ const ERROR_MSG = {
 const checkRegex = (target) => {
   const { value, id } = target
   console.log(value, id)
-  if (value.length == 0)
+  if (value.length === 0)
     return 'required'
   else {
     switch (id) {
